@@ -15,6 +15,7 @@ def assign_rooms(namesArray)
   i = 0
   until i == 7
     roomsArray << "Hello, #{namesArray[i]}! You'll be assigned to room #{i + 1}!"
+    i += 1
   end
   return roomsArray
 end
