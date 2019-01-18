@@ -7,4 +7,5 @@ def batch_badge_creator(namesArray)
   namesArray.each do |name|
     messageArray << badge_maker(name)
   end
+  return messageArray
 end
